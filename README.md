@@ -5,10 +5,6 @@ traits.js
 
 Traits.js makes it possible for you to have multiple inheritance pattern in your class structures.
 
-With traits, you may continue to use the standard `all poodles are dogs` pattern, 
-but you are no longer constrained to it. Now you can safely manage a modular inheritence network, 
-which truly widens the possibilities for producing simple, [DRY](http://en.wikipedia.org/wiki/Don't_repeat_yourself) codebases.
-
 ## Why use traits.js instead of xyz?
 
 * 42 lines of javascript, unminified
