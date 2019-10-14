@@ -11,8 +11,8 @@
 	};
 
 	var validate = function() {
-		for (var x=0, l=arguments.length; x<l; x++) 
-			for (var y in arguments[x]) 
+		for (var x=0, l=arguments.length; x<l; x++)
+			for (var y in arguments[x])
 				if ((arguments[x][y] == Traits.conflict) || (arguments[x][y] == Traits.required))
 						arguments[x][y].call(arguments[x], y);
 	};
@@ -36,7 +36,7 @@
 		conflict: function(prop, obj){ throw new Error('Conflicting property name: ' + prop); },
 		required: function(prop, obj){ throw new Error('Missing required property: ' + prop); }
 	});
- 
+
 	exports.Traits = Traits;
 
 })(exports || this);

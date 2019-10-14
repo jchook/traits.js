@@ -1,0 +1,15 @@
+{
+  "name": "traits.js",
+  "version": "1.0.0",
+  "description": "Traits - Horizontal inheritance pattern for JavaScript.",
+  "main": "traits.js",
+  "repository": "git@github.com:jchook/traits.js.git",
+  "author": "Wes Roberts <g0r6p@a.zinc.email>",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.11.0"
+  },
+  "scripts": {
+    "test": "node test"
+  }
+}
